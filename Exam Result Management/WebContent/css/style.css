@@ -1,0 +1,107 @@
+@charset "ISO-8859-1";
+
+body {
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+span {
+  color: #000;
+}
+
+/* Section's */
+.home-page {
+  background-color: #11999E;
+  color: #fff;
+}
+
+.white-section {
+  padding: 50px;
+  background-color: #fff;
+}
+
+.welcome-section {
+  padding: 100px 100px 60px;
+  background-color: #E4F9F5;
+}
+
+.heading-section {
+  font-weight: bold;
+  color: #000;
+  font-family: "Grenze";
+  font-size: 3rem;
+}
+
+.footer-section {
+  background-color: #fff;
+}
+
+/* Navigation  */
+.navbar {
+  height: 6rem;
+}
+
+ .nav-item a {
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+  margin: 0 0.8rem;
+}
+
+.nav-item a:hover {
+  background-color: #E4F9F5;
+  color: #000;
+  border: 1px solid #E4F9F5;
+  border-radius: 8px;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #11999E;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #30E3CA;
+}
+
+/* Footer */
+#footer {
+  font-weight: bold;
+}
+
+.social-icon {
+  padding: 6px 6px 12px;
+}
+
+.social-icon:hover {
+  color: #11999E;
+}
+
+#copyright {
+  padding-top: 30px;
+}
