@@ -1,0 +1,73 @@
+
+body {
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+/* Section */
+.home-page {
+  background-color: #11999E;
+  color: #fff;
+}
+
+.white-section {
+  padding: 50px;
+  background-color: #fff;
+}
+
+.heading-section {
+  font-weight: bold;
+  color: #000;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 3rem;
+}
+
+/* Navigation  */
+.navbar {
+  height: 6rem;
+}
+
+ .nav-item a {
+  color: #f2f2f2;
+  float: right;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+  margin: 0 0.8rem;
+}
+
+.nav-item a:hover {
+  background-color: #E4F9F5;
+  color: #000;
+  border: 1px solid #E4F9F5;
+  border-radius: 8px;
+}
+
+/* Admin Icon */
+.admin-icon {
+  color: #11999E;
+}
+
+/* Form */
+.form-container {
+  border: 1px solid #E4F9F5;
+  padding: 50px 60px;
+  background-color: #E4F9F5;
+  border-radius: 4px;
+}
+
+.container-fluid {
+  padding: 0 8% 7%;
+}
+
+/* Button */
+.btn {
+  background-color: #11999E;
+  color: #fff;
+}

@@ -1,0 +1,73 @@
+
+body {
+   background-color: #E4F9F5;
+   font-family: "Ubuntu";
+   font-weight: 400;
+   text-align: center;
+ }
+ 
+/* Return Back */
+.return-back {
+	padding: 1.5rem 1.5rem 0 0;
+} 
+
+/* Back Button */
+.back {
+	border: 1px solid #E4F9F5;
+	border-radius: 5px;
+	padding: 10px 10px;
+	float: right;
+	font-family: "Ubuntu";
+	color: #fff;
+	background-color: #11999E;
+}
+
+.back:hover {
+	cursor: pointer;
+	background: #26526e;
+	background-image: -webkit-linear-gradient(top, #26526e, #11999E);
+    background-image: -moz-linear-gradient(top, #26526e, #11999E);
+    background-image: -ms-linear-gradient(top, #26526e, #11999E);
+    background-image: -o-linear-gradient(top, #26526e, #11999E);
+    background-image: linear-gradient(to bottom, #26526e, #11999E);
+}
+
+/* Register Student */
+ .heading {
+    font-family: "Grenze";
+    padding: 5rem 0 1rem;
+ }
+ 
+ /* Table */
+table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+      
+th,td {
+    width: 150px;
+    text-align: left;
+    border: 1px solid #E4F9F5;
+    padding: 5px;
+    font-family: "Ubuntu";
+}
+
+input {
+	border: 2px solid #E4F9F5;
+}
+
+/* Button */
+.btn {
+	border: 1px solid #E4F9F5;
+	color: #fff;
+	background-color: #11999E;
+}
+
+.btn:hover {
+	background: #26526e;
+	background-image: -webkit-linear-gradient(top, #26526e, #11999E);
+    background-image: -moz-linear-gradient(top, #26526e, #11999E);
+    background-image: -ms-linear-gradient(top, #26526e, #11999E);
+    background-image: -o-linear-gradient(top, #26526e, #11999E);
+    background-image: linear-gradient(to bottom, #26526e, #11999E);
+}

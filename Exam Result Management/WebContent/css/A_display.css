@@ -1,0 +1,164 @@
+
+body {
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center;
+}
+
+button {
+	font-family: "Ubuntu";
+	text-align: center;
+}
+
+/* Section's */
+.home-page {
+  background-color: #11999E;
+  color: #fff;
+}
+
+.white-section {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.heading-section {
+  font-weight: bold;
+  color: #000;
+  font-family: "Grenze";
+  font-size: 3rem;
+}
+
+/* Navigation  */
+.navbar {
+  height: 6rem;
+}
+
+ .nav-item a {
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+  margin: 0 0.8rem;
+}
+
+.nav-item a:hover {
+  background-color: #E4F9F5;
+  color: #000;
+  border: 1px solid #E4F9F5;
+  border-radius: 8px;
+}
+
+/* Drop-down */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 0 130px;
+  text-align: center;
+}
+
+.dropdown a{
+	padding: 3px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #28B5B5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  font-family: "Ubuntu";
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #E8E8E8;
+	color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Main Section */
+.card-deck-section {
+	background-color: #E4F9F5;
+	font-family: 'Raleway', sans-serif;
+	padding-bottom: 3rem;
+}
+
+h2 {
+	padding-top: 8px;
+	font-family:"Ubuntu";
+}
+
+small {
+	font-size:18px;
+	font-family:"Ubuntu";
+}
+
+.main-section{
+width:80%;
+margin:0 auto;
+text-align: center;
+padding: 0px 5px;
+}
+
+.dashbord{
+width:32%;
+display: inline-block;
+background-color:#A0C334;
+color:#fff;
+margin-top: 50px;
+}
+
+.icon-section i{
+font-size: 30px;
+padding:10px;
+border:1px solid #fff;
+border-radius:50%;
+margin-top:-25px;
+margin-bottom: 10px;
+background-color: #A0C334;
+}
+
+.icon-section p{
+margin:0px;
+font-size: 20px;
+padding-bottom: 10px;
+}
+
+.detail-section{
+background-color: #81B214;
+padding: 0px;
+}
+
+.dashbord-purple .icon-section,.dashbord-purple .icon-section i{
+background-color:#34495E;
+}
+.dashbord-purple .detail-section{
+background-color:#2F4254;
+}
+
+.dashbord .detail-section:hover{
+background-color: #5a5a5a;
+cursor: pointer;
+}
+.detail-section a{
+color:#fff;
+text-decoration: none;
+}
+
+.dashbord-orange .icon-section,.dashbord-orange .icon-section i{
+background-color: #F39C12;
+}
+.dashbord-orange .detail-section{
+background-color: #DA8C10;
+}
