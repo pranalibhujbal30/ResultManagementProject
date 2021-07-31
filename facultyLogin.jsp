@@ -73,7 +73,7 @@
       <div class="row">
         <div class="col-md-4 col-sm-4 col-xs-12"></div>
         <div class="col-md-4 col-sm-4 col-xs-12">
-          <form class="form-container" action="A_display.html">
+          <form class="form-container" action="faculty.jsp">
             <div class="form-group">
               <label for="Email">Email address</label>
               <input type="email" class="form-control" id="Email" placeholder="Email" required>
