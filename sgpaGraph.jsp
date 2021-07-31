@@ -21,6 +21,8 @@ map = new HashMap<Object,Object>(); map.put("label", "sem1"); map.put("y", reque
 map = new HashMap<Object,Object>(); map.put("label", "sem2"); map.put("y", request.getAttribute("sem2")); list.add(map);
 map = new HashMap<Object,Object>(); map.put("label", "sem3"); map.put("y", request.getAttribute("sem3")); list.add(map);
 map = new HashMap<Object,Object>(); map.put("label", "sem4"); map.put("y", request.getAttribute("sem4")); list.add(map);
+
+
 String dataPoints = gsonObj.toJson(list);
 %>
  

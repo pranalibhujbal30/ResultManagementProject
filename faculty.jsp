@@ -7,20 +7,19 @@
 <title>Insert title here</title>
 </head>
 <body>
+<a href="addResult.jsp">Add Result</a>
 
 <%
 String action=(String)request.getAttribute("validate");
 if(action!=null && action.equals("yes"))
 {
 %>
-<script type="text/javascript">alert(Successful login);</script>
-<%} %>
-
-<a href="addResult.jsp">Add Result</a>
-<br>
-<a href="displayResult.jsp">display Result</a>
-<br>
-<a href="topper.jsp">Toppers</a>
+<script type="text/javascript">
+alert(Successful log in);
+</script>
+<%
+}
+%>
 
 </body>
 </html>

@@ -10,16 +10,10 @@
 <table border="1">
 <tr bgcolor="00FF7F">
 <th><b>CNo</b></th>
-<th><b>Name</b></th>
-<th><b>Division</b></th>
-<th><b>Course ID</b></th>
 <th><b>Total</b></th>
 </tr>
 <tr>
 <td><%=request.getAttribute("CNo") %></td>
-<td><%=request.getAttribute("name") %></td>
-<td><%=request.getAttribute("division") %></td>
-<td><%=request.getAttribute("course_id") %></td>
 <td><%=request.getAttribute("Total_marks")%></td>
 </tr>
 </table>

@@ -8,7 +8,6 @@
 </head>
 <body>
 
-
 <%
 String CNo=(String)session.getAttribute("username");
 if(session.getAttribute("username")!=null)
@@ -26,5 +25,7 @@ if(session.getAttribute("username")!=null)
 <a href="myResult.jsp">display Result</a>
 <br>
 <a href="semsterResultForm.jsp">Display result of previous semesters</a>
+
+
 </body>
 </html>

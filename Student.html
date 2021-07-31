@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Admin Page</title>
+    <title>Student Page</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,7 +13,7 @@
 
     <!-- Admin Style -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="Style/Admin_styles.css">
+    <link rel="stylesheet" href="Style/Stud_styles.css">
 
     <!-- Favicon link -->
     <link rel="icon" href="Images/karve-icon.png">
@@ -68,15 +68,15 @@
     <section class="white-section"></section>
 
     <section class="container-fluid">
-      <i class="admin-icon far fa-user fa-3x"></i>
-      <h2 class="heading-section">Faculty Login</h2>
+      <i class="student-icon fas fa-user-graduate fa-3x"></i>
+      <h2 class="heading-section">Student Login</h2>
       <div class="row">
         <div class="col-md-4 col-sm-4 col-xs-12"></div>
         <div class="col-md-4 col-sm-4 col-xs-12">
-          <form class="form-container" action="A_display.html">
+          <form class="form-container" action="student.jsp">
             <div class="form-group">
-              <label for="Email">Email address</label>
-              <input type="email" class="form-control" id="Email" placeholder="Email" required>
+              <label for="Email">C Number</label>
+              <input type="text" class="form-control" id="Email" placeholder="C Number" required>
             </div>
             <div class="form-group">
               <label for="Password">Password</label>
@@ -84,7 +84,7 @@
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox"> Remember me
+                <a class="fp" href="ForgotP.html">Forgot Password?</a>
               </label>
             </div>
             <button type="submit" class="btn btn-block">Log in</button>

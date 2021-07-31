@@ -1,4 +1,3 @@
-<%@page import="com.dao.ResultImplDAO"%>
 <%@page import="com.pojo.Course"%>
 <%@page import="java.util.List"%>
 <%@page import="com.dao.CourseDAOImpl"%>
@@ -13,32 +12,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-
 <%
 		CourseDAO dao = new CourseDAOImpl();
-      
 		List<Course> courses = dao.FindAllCourses();
 	%>
-	
-	<table border="1">
-	<tr bgcolor="00FF7F">
-<th><b>Course_id</b></th>
-<th><b>Name</b></th>
-<th><b>Type</b></th>
-<th><b>Credits</b></th>
-<th><b>Semester</b></th>
-</tr>
-<%for(int i=0;i<courses.size();i++)
-	{%>
-<tr>
-<td><%=courses.get(i).getCourse_id() %></td>
-<td><%=courses.get(i).getName()%></td>
-<td><%=courses.get(i).getType()%></td>
-<td><%=courses.get(i).getCredits() %></td>
-<td><%=courses.get(i).getSem() %></td>
-<%} %>
-	</table>
+
+	<%=courses%>
 
 </body>
 </html>

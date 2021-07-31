@@ -32,9 +32,8 @@
 <a href="displayResult.jsp">display Result</a>
 <br>
 <a href="topper.jsp">Toppers</a>
-<br>
-<a href="getSgpaOfAll.jsp">Get SGPA of whole semester</a>
 
+<a href="displaySgpa.jsp">display Result</a>
 
 
 </body>
